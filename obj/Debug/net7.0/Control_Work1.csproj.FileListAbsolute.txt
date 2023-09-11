@@ -1,0 +1,14 @@
+C:\Users\ezeki\Desktop\Control_Work1\bin\Debug\net7.0\Control_Work1.exe
+C:\Users\ezeki\Desktop\Control_Work1\bin\Debug\net7.0\Control_Work1.deps.json
+C:\Users\ezeki\Desktop\Control_Work1\bin\Debug\net7.0\Control_Work1.runtimeconfig.json
+C:\Users\ezeki\Desktop\Control_Work1\bin\Debug\net7.0\Control_Work1.dll
+C:\Users\ezeki\Desktop\Control_Work1\bin\Debug\net7.0\Control_Work1.pdb
+C:\Users\ezeki\Desktop\Control_Work1\obj\Debug\net7.0\Control_Work1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezeki\Desktop\Control_Work1\obj\Debug\net7.0\Control_Work1.AssemblyInfoInputs.cache
+C:\Users\ezeki\Desktop\Control_Work1\obj\Debug\net7.0\Control_Work1.AssemblyInfo.cs
+C:\Users\ezeki\Desktop\Control_Work1\obj\Debug\net7.0\Control_Work1.csproj.CoreCompileInputs.cache
+C:\Users\ezeki\Desktop\Control_Work1\obj\Debug\net7.0\Control_Work1.dll
+C:\Users\ezeki\Desktop\Control_Work1\obj\Debug\net7.0\refint\Control_Work1.dll
+C:\Users\ezeki\Desktop\Control_Work1\obj\Debug\net7.0\Control_Work1.pdb
+C:\Users\ezeki\Desktop\Control_Work1\obj\Debug\net7.0\Control_Work1.genruntimeconfig.cache
+C:\Users\ezeki\Desktop\Control_Work1\obj\Debug\net7.0\ref\Control_Work1.dll
