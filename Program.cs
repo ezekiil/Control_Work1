@@ -4,24 +4,52 @@
 При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 Примеры:
-["Hello", "2", "world", ":-)"] → ["2", ":-)"]
-["1234", "1567", "-2", "computer science"] → ["-2"]
-["Russia", "Denmark", "Kazan"] → []
+["Hello", "2", "world", ":-)"] ? ["2", ":-)"]
+["1234", "1567", "-2", "computer science"] ? ["-2"]
+["Russia", "Denmark", "Kazan"] ? []
 */
 
-string [] array = {"Hello", "2", "world", ":-)"};
-string [] array1 = new string [array.Length];
-int count = 0;
-for (int i = 0; i < array.Length; i++)
+using System.Text;
+
+void FillArray(string [] array) // заполнение массива 
 {
-    if (array[i].Length <= 3)
+    Console.WriteLine("Введите элементы массива с новой строки: ");
+    for (int i = 0; i < array.Length; i++) // цикл для заполнения массива
     {
-        array1[count] = array[i];
-        count++;
+        array[i] = Console.ReadLine() ?? ""; // заполнение массива      
     }
 }
-for (int i = 0; i < array1.Length; i++)
+
+void PrintArray(string [] array) // вывод массива
 {
-    Console.WriteLine(array1[i]);
+    Console.WriteLine();
+    Console.WriteLine("Вывод элементов массива, длина которых меньше, либо равна 3 символам: ");
+    for (int i = 0; i < array.Length; i++) // цикл для вывода
+    {
+        if (array[i].Length <= 3) // проверка длины строк 
+        {
+            Console.WriteLine(array[i]); // вывод
+        }
+    }
 }
 
+string [] array = new string [4];
+FillArray(array); // заполнение массива
+PrintArray(array); // вывод массива
+
+
+//string [] array = {"Hello", "2", "world", ":-)"}; // массив строк 
+//string [] array1 = new string [array.Length];
+// int count = 0; 
+// for (int i = 0; i < array.Length; i++) // цикл для склеивания строк 
+// {
+//     if (array[i].Length <= 3) // проверка длины строк 
+//     {
+//         array1[count] = array[i]; // запись в новый массив
+//         count++; // увеличение счетчика
+//     }
+// }
+// for (int i = 0; i < array1.Length; i++) // цикл для вывода
+// {
+//     Console.WriteLine(array1[i]); // вывод
+// }
